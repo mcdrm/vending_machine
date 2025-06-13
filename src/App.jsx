@@ -37,7 +37,7 @@ function App() {
         }
       }}
     >
-      <Environment file="/assets/env-background/venice_sunset_1k.hdr" background blur={2} />
+      <Environment files="/assets/env-background/venice_sunset_1k.hdr" background blur={2} />
       <fog attach="fog" args={['#000000', 17000, 20000]} />
       <color attach="background" args={['#000000']} />
       <pointLight
